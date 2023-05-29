@@ -36,6 +36,7 @@
             this.btnQuitLogin = new System.Windows.Forms.Button();
             this.btnLogin = new System.Windows.Forms.Button();
             this.label4 = new System.Windows.Forms.Label();
+            this.button1 = new System.Windows.Forms.Button();
             this.SuspendLayout();
             // 
             // label1
@@ -113,17 +114,28 @@
             // 
             this.label4.AutoSize = true;
             this.label4.ForeColor = System.Drawing.Color.Gray;
-            this.label4.Location = new System.Drawing.Point(35, 398);
+            this.label4.Location = new System.Drawing.Point(31, 454);
             this.label4.Name = "label4";
             this.label4.Size = new System.Drawing.Size(182, 16);
             this.label4.TabIndex = 8;
             this.label4.Text = "Le Minh Kha B2012213 © 2023";
             // 
+            // button1
+            // 
+            this.button1.Location = new System.Drawing.Point(305, 408);
+            this.button1.Name = "button1";
+            this.button1.Size = new System.Drawing.Size(174, 30);
+            this.button1.TabIndex = 9;
+            this.button1.Text = "Log out";
+            this.button1.UseVisualStyleBackColor = true;
+            this.button1.Click += new System.EventHandler(this.button1_Click);
+            // 
             // frmLogin
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 16F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(705, 423);
+            this.ClientSize = new System.Drawing.Size(705, 479);
+            this.Controls.Add(this.button1);
             this.Controls.Add(this.label4);
             this.Controls.Add(this.btnLogin);
             this.Controls.Add(this.btnQuitLogin);
@@ -152,6 +164,7 @@
         private System.Windows.Forms.Button btnQuitLogin;
         private System.Windows.Forms.Button btnLogin;
         private System.Windows.Forms.Label label4;
+        private System.Windows.Forms.Button button1;
     }
 }
 

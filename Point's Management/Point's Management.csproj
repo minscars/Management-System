@@ -93,5 +93,8 @@
   <ItemGroup>
     <None Include="Resources\309961920_1456148454886261_5412562119686729844_n.jpg" />
   </ItemGroup>
+  <ItemGroup>
+    <Content Include="Class1.txt" />
+  </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>
