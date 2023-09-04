@@ -50,7 +50,7 @@ namespace Point_s_Management
 
                 if (txtUsername.Text == "" || txtPassword.Text == "")
                 {
-                    MessageBox.Show("You've not entered username or password yet! Please enter your username or password!", "Notification",
+                    MessageBox.Show("You have not entered username or password yet! Please enter your username or password!", "Notification",
                         MessageBoxButtons.OK, MessageBoxIcon.Information);
                 } else if (this.txtPassword.Text == pass)
                 {
